@@ -1,0 +1,37 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "sura-app-ee922",
+          "appId": "1:1075064472296:android:59b4e4664dda93dffaff5d",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "sura-app-ee922",
+          "configurations": {
+            "android": "1:1075064472296:android:59b4e4664dda93dffaff5d",
+            "ios": "1:1075064472296:ios:a4ebc67dff270e6ffaff5d",
+            "web": "1:1075064472296:web:23762d40497a85ecfaff5d"
+          }
+        }
+      }
+    }
+  },
+  "functions": [
+    {
+      "source": "functions",
+      "codebase": "default",
+      "disallowLegacyRuntimeConfig": true,
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "*.local"
+      ]
+    }
+  ]
+}
